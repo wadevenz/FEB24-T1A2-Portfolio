@@ -1,8 +1,7 @@
 :root {
     --gunmetal: #242f34ff;
     --white: #ffffffff;
-    --dodger-blue: #1097f7ff;
-    --chili-red: #d64933ff;
+    --chartreuse: #dfff00ff;
 
     /* // <uniquifier>: Use a unique and descriptive class name
         // <weight>: Use a value from 100 to 900
