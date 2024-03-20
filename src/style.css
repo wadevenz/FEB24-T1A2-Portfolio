@@ -218,11 +218,7 @@ main {
     height: 6em;
     width: 6em;
     border-radius: 1em;
-}
-
-.blogpage > p {
-    display: flex;
-
+    margin-right: 1em;
 }
 
 /* footer styling */
