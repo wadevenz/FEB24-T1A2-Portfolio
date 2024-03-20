@@ -157,11 +157,19 @@ main {
     font-weight: 600;
     font-size: 2em;
     padding-top: 10dvh;
+    border-bottom: 3px solid var(--chartreuse);
 }
 
 .careerpage {
     color: var(--white);
-    
+}
+
+@media screen and (min-width: 600px) {
+        .careerpage > ul {
+            display: flex;
+            padding: 2em;
+            flex-wrap: wrap;
+        }
 }
 
 /* experience styling */
@@ -175,6 +183,7 @@ main {
     font-weight: 600;
     font-size: 2em;
     padding-top: 10dvh;
+    border-bottom: 3px solid var(--chartreuse);
 }
 
 #resume {
@@ -211,6 +220,7 @@ main {
     font-weight: 600;
     font-size: 2em;
     padding-top: 10dvh;
+    border-bottom: 3px solid var(--chartreuse);
 }
 
 .blogpost {
