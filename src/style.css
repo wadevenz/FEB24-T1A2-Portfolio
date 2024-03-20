@@ -200,19 +200,29 @@ main {
 
 /* blog styling */
 
-.blog {
+.blogpage {
     padding-top: 20dvh;
-    color: var(--white)
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
 }
 
-.blog > h1 {
+.blogpage > h1 {
     font-weight: 600;
     font-size: 2em;
     padding-top: 10dvh;
 }
 
-.posts {
+.posts_img {
     float: left;
+    height: 6em;
+    width: 6em;
+    border-radius: 1em;
+}
+
+.blogpage > p {
+    display: flex;
+
 }
 
 /* footer styling */
@@ -224,3 +234,4 @@ footer {
     padding-top: 20dvh;
     font-size: 0.5em;
 }
+

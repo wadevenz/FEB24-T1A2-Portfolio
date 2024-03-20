@@ -1,0 +1,15 @@
+:root {
+    --gunmetal: #242f34ff;
+    --white: #ffffffff;
+    --chartreuse: #dfff00ff;
+    }
+
+ * {
+    margin: 0;
+    background-color: var(--gunmetal);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
