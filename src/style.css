@@ -136,7 +136,7 @@ main {
     height: 6em;
     width: 6em;
     border-radius: 2em;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .aboutpage > p {
@@ -211,6 +211,16 @@ main {
     font-weight: 600;
     font-size: 2em;
     padding-top: 10dvh;
+}
+
+.blogpost {
+    margin-bottom: 1em;
+}
+
+.blogpost > a {
+    color: var(--chartreuse);
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .posts_img {
