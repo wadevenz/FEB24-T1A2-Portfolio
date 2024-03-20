@@ -128,9 +128,10 @@ main {
     color: var(--chartreuse);
     font-weight: 600;
     font-size: 2em;
+    padding-top: 15dvh;
 }
 
-.aboutpage > img {
+#portrait {
     float: left;
     height: 5em;
     width: 5em;
@@ -147,4 +148,29 @@ main {
     justify-content: center;
     height: 10dvh;
     width: 80dvw;
+    padding-bottom: 20dvh;
+}
+
+/* career styling */
+
+.careerpage h1 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 10dvh;
+}
+
+.careerpage {
+    color: var(--white);
+    
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    padding-top: 20dvh;
+    font-size: 0.5em;
 }
