@@ -14,6 +14,8 @@
     font-variation-settings: "slnt" 0;
 }
 
+/* header styling */
+
 header {
     display: flex;
     flex-direction: row;
@@ -25,14 +27,13 @@ header {
 .leftnav {
     color: var(--chartreuse);
     position: fixed;
-    top: 16px;
-    left: 16px; 
+    top: 6px;
+    left: 6px; 
 }
 
  .navbtn {
     background-color: var(--gunmetal);
     color: var(--chartreuse);
-    padding: 12px;
     border: none;
     font-size: 1.5em;
 }
@@ -58,6 +59,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    text-align: end;
+    width: 100%;
   }
 
 .dropdown-content a:hover {
@@ -77,9 +80,12 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 25dvh;
-    padding-left: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
 
 }
+
+/* main homepage styling */
 
 .homepage {
     color: var(--chartreuse);
@@ -96,6 +102,7 @@ main {
 
 .homepage > h1 {
     font-size: 2em;
+    color: var(--white);
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -110,10 +117,34 @@ main {
 }
 
 #scrolldown {
-    color: white;
+    font-size: 2em;
     margin-bottom: 25dvh;
 }
 
+
+/* About styling */
+ 
 .aboutpage > h1 {
     color: var(--chartreuse);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.aboutpage > img {
+    float: left;
+    height: 5em;
+    width: 5em;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+.aboutpage > p {
+    color: var(--white);
+}
+
+#aboutdevimage {
+    display: flex;
+    justify-content: center;
+    height: 10dvh;
+    width: 80dvw;
 }
