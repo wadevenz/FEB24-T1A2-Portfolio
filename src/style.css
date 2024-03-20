@@ -25,28 +25,70 @@ header {
 .leftnav {
     color: var(--chartreuse);
     position: fixed;
-    top: 2px;
-    left: 2px; 
+    top: 16px;
+    left: 16px; 
 }
 
-.rightnav {
+ .navbtn {
+    background-color: var(--gunmetal);
     color: var(--chartreuse);
+    padding: 12px;
+    border: none;
+}
+
+.dropdown-nav {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: var(--gunmetal);
+    min-width: 30dvw;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: var(--chartreuse);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+.dropdown-content a:hover {
+    background-color: var(--chartreuse);
+    color: var(--gunmetal)
+}
+
+.dropdown-nav:hover .navbtn {background-color: var(--chartreuse);}
+
+.show {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 main {
     display: flex;
+    flex-direction: column;
     margin-top: 25dvh;
-    padding: 50px;
-    width: 65dvw;
+    padding-left: 20%;
+
 }
 
 .homepage {
     color: var(--chartreuse);
+    padding-right:30%;
+    padding-bottom: 30dvh;
 }
 
 
 .homepage > h6 {
-    font-size: 0.7em;
+    font-size: 1em;
     font-weight: 200;
     margin-bottom: 20px;
 }
@@ -58,9 +100,19 @@ main {
 }
 
 .homepage > p {
-    font-size: 0.5em;
+    font-size: 1em;
     color: var(--white);
     float: right;
+    margin-right: 0px;
     margin-top: 2dvh;
-    margin-bottom: 20dvh;
+    margin-bottom: 5dvh;
+}
+
+#scrolldown {
+    color: white;
+    margin-bottom: 25dvh;
+}
+
+.aboutpage > h1 {
+    color: var(--chartreuse);
 }

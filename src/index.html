@@ -10,30 +10,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/efb3cb3d80.js" crossorigin="anonymous"></script>
     
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.navbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
 </head>
 <body>
     <header>
         <nav>
             <img class="leftnav" src="/docs" alt="WV">
-            <a class="rightnav" href= "#about">about</a>
-            <a class="rightnav" href= "#career">career</a> 
-            <a class="rightnav" href= "#experience">experience</a>
-            <a class="rightnav" href= "#blog">blog</a>
+            <section class="dropdown-nav">
+                <button onclick="myFunction()" class="navbtn"><i class="fa-solid fa-bars"></i></button>
+                    <section id= "myDropdown" class="dropdown-content">
+                        <a href= "#about">about</a>
+                        <a href= "#career">career</a> 
+                        <a href= "#experience">experience</a>
+                        <a href= "#blog">blog</a>
+                    </section>
+            </section>
         </nav>
     </header>
     
     <main>
         <section class="homepage">
-            <h6> Gold Coast based developer, dodgers fan, and dad </h6>
+            <h6> Gold Coast based developer, dodgers fan, and dad &#9996;</h6>
             <h1> Wade Venz </h1>
             <h3> Taking your big ideas and turning them into creative, web-based experiences </h3>
-            <p> scroll down </p>
         </section>
-
     
-        <section id="about">
-
+        <p id="scrolldown"> &#128071 </p>
+        
+        <section class="aboutpage">
+            <h1 id="about"> Hi, I'm Wade</h1>
             
         </section>
     </main>
