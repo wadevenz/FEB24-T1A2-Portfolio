@@ -133,10 +133,10 @@ main {
 
 #portrait {
     float: left;
-    height: 5em;
-    width: 5em;
-    border-radius: 1em;
-    padding: 2em;
+    height: 6em;
+    width: 6em;
+    border-radius: 2em;
+    padding: 0.5em;
 }
 
 .aboutpage > p {
@@ -147,7 +147,7 @@ main {
     display: flex;
     justify-content: center;
     height: 10dvh;
-    width: 80dvw;
+    width: 75dvw;
     padding-bottom: 20dvh;
 }
 
@@ -164,8 +164,58 @@ main {
     
 }
 
+/* experience styling */
 
+.experience {
+    color: var(--white);
+    padding-top: 20dvh;
+}
 
+.experience > h1 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 10dvh;
+}
+
+#resume {
+    background-color: var(--gunmetal);
+    border-radius: 0.5em;
+}
+
+#resume > a {
+    color: var(--chartreuse);
+    background-color: var(--gunmetal);
+    text-decoration: none;
+}
+
+#resume:hover {
+    background-color: var(--chartreuse);
+    color:var(--gunmetal);
+}
+
+#resume > a:hover {
+    background-color: var(--chartreuse);
+    color:var(--gunmetal);
+}
+
+/* blog styling */
+
+.blog {
+    padding-top: 20dvh;
+    color: var(--white)
+}
+
+.blog > h1 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 10dvh;
+}
+
+.posts {
+    float: left;
+}
+
+/* footer styling */
 footer {
     display: flex;
     justify-content: center;
