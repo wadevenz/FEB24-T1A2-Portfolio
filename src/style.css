@@ -6,6 +6,7 @@
 
  * {
     margin: 0;
+    max-width: 100%;
     background-color: var(--gunmetal);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -37,7 +38,7 @@ header {
 /* menu styles */
 .menu {
     display: flex;
-    position: relative;
+    position: fixed;
     padding: 0;
     border: none;
 }
@@ -81,7 +82,7 @@ main {
 
 .homepage {
     color: var(--chartreuse);
-    padding-right:30%;
+    padding-right:15%;
     padding-bottom: 25dvh;
 }
 
@@ -167,12 +168,12 @@ main {
 .careercontent {
     display: flex;
     flex-wrap: wrap;
-    padding: 1.5em;
     margin-top: 1em;
 }
 
 .careerlist {
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 
@@ -225,16 +226,24 @@ main {
     border-bottom: 3px solid var(--chartreuse);
 }
 
-.logos {
+.contact-icons {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    flex-direction: column;
     max-width: 100%;
-    align-content: flex-start;
+    justify-content: space-between;
     color: var(--chartreuse);
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 1em;
 }
+
+.social-icons {
+    display: flex;
+    max-width: 100%;
+    color: var(--chartreuse);
+    margin-top: 1em;
+    font-size: 1em;
+}
+
 
 /* blog styling */
 
@@ -270,6 +279,55 @@ main {
     margin-right: 1em;
 }
 
+/* wrapper styling */
+
+.wrapper > a > img {
+    display: block;
+    height: 2em;
+    width: 2em;
+    max-width: 100%;
+}
+
+.wrapper {
+    max-height:45dvh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:1fr 5fr;
+    grid-gap: 20px;
+    overflow: hidden;
+    height: 100dvh;
+}
+
+.gallery > p {
+    color: var(--white);
+}
+
+.gallery {
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.gallery_img {
+    scroll-snap-align: start;
+    margin-bottom: 10px;
+    /* min-height: 100vh; */
+    object-fit: cover;
+}
+
+.lil-nav {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.lil-nav a {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.lil-nav_img {
+    object-fit: cover;
+}
+
 /* footer styling */
 footer {
     display: flex;
@@ -277,7 +335,7 @@ footer {
     align-items: center;
     color: var(--white);
     padding-top: 20dvh;
-    font-size: 0.5em;
+    font-size: 1em;
 }
 
 /* desktop view */
@@ -295,6 +353,8 @@ footer {
     .careerlist {
         flex: 33;
         max-width: 33dvh;
+        display: flex;
+        justify-content: space-between;
     }
 }
 
