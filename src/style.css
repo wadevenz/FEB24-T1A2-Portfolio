@@ -90,7 +90,7 @@ main {
 .homepage {
     color: var(--chartreuse);
     padding-right:30%;
-    padding-bottom: 30dvh;
+    padding-bottom: 20dvh;
 }
 
 
@@ -164,13 +164,17 @@ main {
     color: var(--white);
 }
 
-@media screen and (min-width: 600px) {
-        .careerpage > ul {
-            display: flex;
-            padding: 2em;
-            flex-wrap: wrap;
-        }
+.careercontent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5em;
+    margin-top: 1em;
 }
+
+.careerlist {
+    padding: 1em;
+}
+
 
 /* experience styling */
 
@@ -189,6 +193,7 @@ main {
 #resume {
     background-color: var(--gunmetal);
     border-radius: 0.5em;
+    margin-bottom: 20dvh;
 }
 
 #resume > a {
@@ -205,6 +210,25 @@ main {
 #resume > a:hover {
     background-color: var(--chartreuse);
     color:var(--gunmetal);
+}
+
+/* contact styling */
+.contactpage > h1 {
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 10dvh;
+    border-bottom: 3px solid var(--chartreuse);
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 50%;
+    padding: 1em;
+    color: var(--chartreuse);
+    margin-top: 1em;
+    font-size: 2em;
 }
 
 /* blog styling */
@@ -251,3 +275,16 @@ footer {
     font-size: 0.5em;
 }
 
+/* desktop view */
+
+@media screen and (min-width: 800px) {
+
+    .homepage {
+        font-size: 1.7em;
+    }
+
+    .careerlist {
+        flex: 33;
+        max-width: 33dvh;
+    }
+}
