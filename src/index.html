@@ -12,41 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/efb3cb3d80.js" crossorigin="anonymous"></script>
-    
-    <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content - this script was taken from w3 schools website - https://www.w3schools.com/ */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.navbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-    </script>
+
 </head>
 <body>
     <header id="home">
-        <nav class="dropdown-nav">
-            <img class="leftnav" src="/docs" alt="WV">
-            <button onclick="myFunction()" class="navbtn"><i class="fa-solid fa-bars"></i></button>
-                <section id= "myDropdown" class="dropdown-content">
-                    <a href= "#about">about</a>
-                    <a href= "#career">career</a> 
-                    <a href= "#experience">experience</a>
-                    <a href= "#contact">contact</a>
-                    <a href= "#blog">blog</a>
-                </section>
+        <figure class="mainlogo">
+            <img src="/docs" alt="WV">
+        </figure>
+       <nav class="menu">
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#career">career</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#blog">blog</a></li>
+            </ul>
         </nav>
     </header>
     
@@ -57,7 +37,10 @@
             <h3> Taking your big ideas and turning them into creative, web-based experiences </h3>
         </section>
     
-        <p id="scrolldown"> &#128071 </p>
+        <figure id="scrolldown"> 
+            <aside>scroll or click for more</aside>
+            <a href="#about"> &#128071</a>
+        </figure>
         
         <section class="aboutpage">
             <h1 id="about"> Hi, I'm Wade</h1>
@@ -90,6 +73,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur magnam quaerat blanditiis voluptatibus? Sunt, eveniet consequatur. Possimus, voluptatum, consectetur aperiam earum fugit laudantium blanditiis aut minus, dolor non harum accusantium.
                 </article>
             </section>
+        </section>
 
         <section class="experience">
             <h1 id="experience"> Experience </h1>

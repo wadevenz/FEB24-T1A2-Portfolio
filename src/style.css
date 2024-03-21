@@ -12,6 +12,7 @@
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+    transition: 1s;
 }
 
 /* header styling */
@@ -22,59 +23,51 @@ header {
     justify-content: flex-end;
     height: 5dvh;
     width: 100%;
+    padding: 0;
 }
 
-.leftnav {
+.mainlogo {
     color: var(--chartreuse);
     position: fixed;
     top: 6px;
     left: 6px; 
 }
 
- .navbtn {
-    background-color: var(--gunmetal);
-    color: var(--chartreuse);
-    border: none;
-    font-size: 1.5em;
-}
 
-.dropdown-nav {
+/* menu styles */
+.menu {
+    display: flex;
     position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    background-color: var(--gunmetal);
-    min-width: 30dvw;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: var(--chartreuse);
-    padding: 10px 10px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: end;
-    width: 100%;
-  }
-
-.dropdown-content a:hover {
-    background-color: var(--chartreuse);
-    color: var(--gunmetal);
+    padding: 0;
+    border: none;
 }
 
-.dropdown-nav:hover .navbtn {background-color: var(--chartreuse);}
 
-.show {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
+.menu ul {
+  list-style: none;
 }
+
+.menu ul li {
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li a:link, .menu ul li a:visited {
+  display: inline-block;
+  padding: 10px 0.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background-color: var(--chartreuse);
+  color: var(--gunmetal);
+}
+
+
+/* styling for main body */
 
 main {
     display: flex;
@@ -82,7 +75,6 @@ main {
     margin-top: 25dvh;
     padding-left: 15%;
     padding-right: 15%;
-
 }
 
 /* main homepage styling */
@@ -90,9 +82,8 @@ main {
 .homepage {
     color: var(--chartreuse);
     padding-right:30%;
-    padding-bottom: 20dvh;
+    padding-bottom: 25dvh;
 }
-
 
 .homepage > h6 {
     font-size: 1em;
@@ -116,9 +107,18 @@ main {
     margin-bottom: 5dvh;
 }
 
-#scrolldown {
+#scrolldown > aside {
+    color: var(--white);
+    font-size: 0.65em;
+    display: flex;
+    justify-content: end;
+}
+#scrolldown > a {
+    display: flex;
+    justify-content: end;
     font-size: 2em;
     margin-bottom: 25dvh;
+    text-decoration: none;
 }
 
 
@@ -213,6 +213,11 @@ main {
 }
 
 /* contact styling */
+
+.contactpage {
+    color: var(--white);
+    padding-top: 20dvh;
+}
 .contactpage > h1 {
     font-weight: 600;
     font-size: 2em;
@@ -224,8 +229,8 @@ main {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    max-width: 50%;
-    padding: 1em;
+    max-width: 100%;
+    align-content: flex-start;
     color: var(--chartreuse);
     margin-top: 1em;
     font-size: 2em;
@@ -283,8 +288,18 @@ footer {
         font-size: 1.7em;
     }
 
+    #scrolldown {
+        display: none; 
+    }
+
     .careerlist {
         flex: 33;
         max-width: 33dvh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
     }
 }
