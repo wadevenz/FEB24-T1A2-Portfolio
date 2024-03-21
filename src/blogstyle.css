@@ -6,10 +6,50 @@
 
  * {
     margin: 0;
-    background-color: var(--gunmetal);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+}
+
+nav {
+    height: 10dvh;
+    width: 100%;
+    background-color: var(--gunmetal);
+    display: flex;
+    flex: 5;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > img {
+    height: 10dvh;
+    width: 4.5em;
+}
+
+nav > a {
+    color: var(--chartreuse);
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: var(--chartreuse);
+    color: var(--gunmetal)
+}
+
+.blogheader {
+    height: 40dvh;
+    width: 100%;
+    background-color: var(--chartreuse);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogheader > img {
+    height: 20dvh;
+    filter: grayscale(100%);
+    padding-right: 2em;
 }

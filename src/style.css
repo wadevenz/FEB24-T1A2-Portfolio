@@ -32,6 +32,8 @@ header {
     position: fixed;
     top: 6px;
     left: 6px; 
+    height: 12%;
+    width: 12%;
 }
 
 
@@ -118,7 +120,7 @@ main {
     display: flex;
     justify-content: end;
     font-size: 2em;
-    margin-bottom: 25dvh;
+    margin-bottom: 15dvh;
     text-decoration: none;
 }
 
@@ -129,13 +131,13 @@ main {
     color: var(--chartreuse);
     font-weight: 600;
     font-size: 2em;
-    padding-top: 15dvh;
+    padding-top: 20dvh;
 }
 
 #portrait {
     float: left;
-    height: 6em;
-    width: 6em;
+    height: 8em;
+    width: 8em;
     border-radius: 2em;
     padding: 1em;
 }
@@ -147,9 +149,9 @@ main {
 #aboutdevimage {
     display: flex;
     justify-content: center;
-    height: 10dvh;
+    height: 15dvh;
     width: 75dvw;
-    padding-bottom: 20dvh;
+    padding-bottom: 15dvh;
 }
 
 /* career styling */
@@ -273,59 +275,15 @@ main {
 
 .posts_img {
     float: left;
-    height: 6em;
-    width: 6em;
+    height: 8em;
+    width: 8em;
     border-radius: 1em;
     margin-right: 1em;
+    filter: grayscale(90%)
 }
 
-/* wrapper styling */
-
-.wrapper > a > img {
-    display: block;
-    height: 2em;
-    width: 2em;
-    max-width: 100%;
-}
-
-.wrapper {
-    max-height:45dvh;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns:1fr 5fr;
-    grid-gap: 20px;
-    overflow: hidden;
-    height: 100dvh;
-}
-
-.gallery > p {
-    color: var(--white);
-}
-
-.gallery {
-    overflow: scroll;
-    scroll-snap-type: x mandatory;
-}
-
-.gallery_img {
-    scroll-snap-align: start;
-    margin-bottom: 10px;
-    /* min-height: 100vh; */
-    object-fit: cover;
-}
-
-.lil-nav {
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-.lil-nav a {
-    display: flex;
-    margin-bottom: 10px;
-}
-
-.lil-nav_img {
-    object-fit: cover;
+.posts_img:hover {
+    filter: grayscale(0%)
 }
 
 /* footer styling */
@@ -356,6 +314,17 @@ footer {
         display: flex;
         justify-content: space-between;
     }
+
+    .blogpost {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 33%;
+        flex: 33;
+        justify-content: center;
+
+ }
+    
 }
 
 @media screen and (max-width: 800px) {
