@@ -6,7 +6,6 @@
 
  * {
     margin: 0;
-    max-width: 100%;
     background-color: var(--gunmetal);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -31,11 +30,13 @@ header {
     color: var(--chartreuse);
     position: fixed;
     top: 6px;
-    left: 6px; 
-    height: 12%;
-    width: 12%;
+    left: 6px;
 }
 
+.mainlogo > img {
+    height: 6em;
+    width: 6em;
+}
 
 /* menu styles */
 .menu {
@@ -308,21 +309,11 @@ footer {
         display: none; 
     }
 
-    .careerlist {
+    .blogpost {
         flex: 33;
         max-width: 33dvh;
         display: flex;
         justify-content: space-between;
-    }
-
-    .blogpost {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        max-width: 33%;
-        flex: 33;
-        justify-content: center;
-
  }
     
 }
