@@ -2,10 +2,37 @@
     --gunmetal: #242f34ff;
     --white: #ffffffff;
     --chartreuse: #dfff00ff;
+
+     .charis-sil-regular {
+        font-family: "Charis SIL", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .charis-sil-bold {
+        font-family: "Charis SIL", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .charis-sil-regular-italic {
+        font-family: "Charis SIL", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .charis-sil-bold-italic {
+        font-family: "Charis SIL", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
     }
 
  * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: var(--gunmetal);
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -104,10 +131,12 @@ main {
 }
 
 .homepage > h1 {
-    font-size: 2em;
+    font-family: "Charis SIL", serif;
+    font-size: 2.5em;
     color: var(--white);
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 15px;
+    font-style: normal;
 }
 
 .homepage > p {
@@ -186,6 +215,10 @@ main {
 
 /* career styling */
 
+.careerpage {
+    color: var(--white);
+}
+
 .careerpage h1 {
     font-weight: 600;
     font-size: 2em;
@@ -193,19 +226,35 @@ main {
     border-bottom: 3px solid var(--chartreuse);
 }
 
-.careerpage {
-    color: var(--white);
-}
-
 .careercontent {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
     margin-top: 1em;
 }
+  
+#ch {
+    display: none;
+}
 
-.careerlist {
-    padding-top: 1em;
-    padding-bottom: 1em;
+#ch:checked ~ .extra-content {
+    display: block;
+}
+
+#ch:checked ~ label {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    color: white;
+    background-color: var(--gunmetal);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.extra-content {
+    display: none;
 }
 
 
@@ -335,6 +384,14 @@ footer {
 
     #scrolldown {
         display: none; 
+    }
+
+    .extra-content {
+        display: inherit;
+    }
+    
+    label {
+        display: none;
     }
 
     .experience {
