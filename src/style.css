@@ -42,8 +42,8 @@ header {
 .mainlogo {
     color: var(--chartreuse);
     position: fixed;
-    top: 6px;
-    left: 6px;
+    top: 1px;
+    left: 1px;
     background-color: rgba(36, 47, 52, 0)
 }
 
@@ -267,14 +267,26 @@ label {
     color: var(--chartreuse);
 }
 
+/* simple animation for a section announcing upcoming projects, color change of text on infinite loop */
+@keyframes myprojects {
+    0% {color:var(--white);}
+    25% {color: var(--chartreuse);}
+    50% {color: var(--chartreuse);}
+    100% {color: var(--white);}
+}
+
 #newprojects {
     color: var(--white);
     font-weight: 700;
+    font-size: 2.5em;
     padding-top: 2em;
+    animation-name: myprojects;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 /* blog styling  - flex box styled with multiple images. images and titles used as links. media responsiveness added 
-and explained in comment below. the images will appear grayscale in large viewports where hover is available and will show color 
+aand explained in comment below. the images will appear grayscale in large viewports, where hover is available, and will show color 
 when active in hover*/
 
 .blogpage {

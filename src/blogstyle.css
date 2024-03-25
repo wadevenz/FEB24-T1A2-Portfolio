@@ -45,6 +45,11 @@ nav > #logo {
     color: var(--gunmetal);
 }
 
+.title > h1 {
+    font-family: "Charis SIL", serif;
+    font-size: 2em;
+}
+
 
 #date {
     font-size: 0.75em;
@@ -79,8 +84,11 @@ a {
 
 footer {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    font-size: 0.5em;
-
+    align-items: center;
+    color: var(--gunmetal);
+    padding-top: 20dvh;
+    font-size: 1em;
+    width: 50%;
+    padding-left: 1em;
 }
