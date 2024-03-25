@@ -27,14 +27,51 @@ nav > #logo {
     width: 10%;
 }
 
-nav > a {
-    color: white;
-    text-decoration: none;
-    padding: 2em;
-    box-sizing: border-box;
-    height: 1em;
+
+.title {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--chartreuse);
 }
 
-nav > a:hover {
-    background-color: var(--chartreuse);
+.title > .postheader {
+    padding-left: 20dvw;
+    padding-top: 1em;
+    padding-right: 15dvw;
+    color: var(--gunmetal);
+}
+
+#date {
+    font-size: 0.75em;
+}
+
+.title > img {
+    height: 20dvh;
+    width: 60dvw;
+    justify-content: center;
+    align-self: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    filter: grayscale(100%);
+}
+
+main > p {
+    padding-top: 1em;
+    padding-left: 20dvw;
+    padding-right: 15dvw;
+    padding-bottom: 2em;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 3em;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.5em;
+
 }
