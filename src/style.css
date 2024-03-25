@@ -339,7 +339,7 @@ footer {
     align-items: center;
     color: var(--white);
     padding-top: 20dvh;
-    font-size: 1em;
+    font-size: 0.75em;
     width: 50%;
     padding-left: 1em;
 }
@@ -385,6 +385,10 @@ footer {
 
     .posts_img > a:hover {
         filter: grayscale(0%)
+    }
+
+    footer {
+        font-size: 1em;
     }
     
 }
