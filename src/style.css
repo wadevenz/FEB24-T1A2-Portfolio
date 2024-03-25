@@ -267,6 +267,12 @@ label {
     color: var(--chartreuse);
 }
 
+#newprojects {
+    color: var(--white);
+    font-weight: 700;
+    padding-top: 2em;
+}
+
 /* blog styling  - flex box styled with multiple images. images and titles used as links. media responsiveness added 
 and explained in comment below. the images will appear grayscale in large viewports where hover is available and will show color 
 when active in hover*/
