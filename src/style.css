@@ -1,32 +1,16 @@
 :root {
+    /* color theme */
     --gunmetal: #242f34ff;
     --white: #ffffffff;
     --chartreuse: #dfff00ff;
 
-     .charis-sil-regular {
-        font-family: "Charis SIL", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .charis-sil-bold {
+    /*  font for name in header only */
+
+    .charis-sil-bold {
         font-family: "Charis SIL", serif;
         font-weight: 700;
         font-style: normal;
       }
-      
-      .charis-sil-regular-italic {
-        font-family: "Charis SIL", serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .charis-sil-bold-italic {
-        font-family: "Charis SIL", serif;
-        font-weight: 700;
-        font-style: italic;
-      }
-      
     }
 
  * {
@@ -305,7 +289,6 @@ label {
 }
 
 .posts_img {
-    float: left;
     height: 8em;
     width: 8em;
     border-radius: 1em;
