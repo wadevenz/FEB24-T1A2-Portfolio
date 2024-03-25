@@ -19,6 +19,7 @@
     
 </head>
 <body>
+    <!-- header includes logo and a navbar on desktop only. anchor links are used to ids in the same html document -->
     <header id="home">
         <figure class="mainlogo">
             <img src="/src/assets/WV_logo_white.png" alt="WV">
@@ -35,11 +36,13 @@
     </header>
     
     <main>
+        <!-- home page includes a quick introduction and an icon informing the ability to scroll down. scroll navigation primarily relied on mobile view, while desktop may use navigation bar -->
         <section class="homepage">
             <h6> Gold Coast based developer, dodgers fan, and dad &#9996;</h6>
             <h1> Wade Venz </h1>
             <h3> Taking your big ideas and turning them into creative, web-based experiences </h3>
         </section>
+        <!-- icons are links to different contact methods and social media -->
         <section class="contact-icons">
             <a href="mailto:wadethedev@email.com">
                 <i class="fa-solid fa-envelope"></i>
@@ -61,12 +64,13 @@
                 <i class="fa-brands fa-linkedin"></i>
             </a>
         </section>
-    
+        <!-- scrolldown figue visible in mobile view -->
         <figure id="scrolldown"> 
             <aside>scroll or click for more</aside>
             <a href="#about"> &#128071</a>
         </figure>
         
+        <!-- simple about page with a floated portrait -->
         <section class="aboutpage">
             <h1 id="about"> Hi, I'm Wade &#128075</h1>
             <br>
@@ -88,6 +92,7 @@
             <br>
         </section>
 
+        <!-- career page utilises content in seperate articles or paragraphs, a checkbox is utilised for read more section -->
         <section class="careerpage">
             <h1 id="career"> Career </h1>
             <section class="careercontent">
@@ -100,6 +105,7 @@
                     But after almost seven years (and two kids) later, the shift work had started to take a toll. I was missing out on spending time with my kids, and maintaining a healthy routine was proving all but impossible. So, I needed to make a change.
                 </article>
                 <br>
+                <!-- read more section activated by check box, visible in mobile view only to reduce content and for aesthetics.  -->
                 <article class="extra-content"> 
                     My wife has worked in the software space for most of her career. She's closely with developers as a UX writer, and knows the industry inside-out. As crazy as the jump from paramedics to developer seemed, she convinced me that it would be a perfect fit for my skills and personality.
                 </article>
@@ -113,6 +119,7 @@
             </section>
         </section>
 
+        <!-- experience section is also responsive utilising flexbox. different sections labelled with specific icons -->
         <section class="experience">
             <h1 id="experience"> Experience </h1>
             <br>
@@ -145,6 +152,8 @@
             </article>
         </section>
 
+        <!-- blog page utilises seperate html pages with anchor links for navigation -->
+
         <section class="blogpage">
             <h1 id="blog"> Blog </h1>
             <br>
@@ -154,8 +163,11 @@
                 </a>
                 <a href="/src/pages/blog01.html">Learn to type at light speed!</a>
                 <br>
+                <p class="date">
+                    07/03/23
+                </p>
                 <p> 
-                    07/03/23 - Typing fast is a huge advantage for developers. Learn how in this innovative blog. 
+                     Typing fast is a huge advantage for developers. Learn how in this innovative blog. 
                 </p>
                 <br>
             </article>
@@ -165,8 +177,11 @@
                 </a>
                 <a href="/src/pages/blog02.html">Why should you hire me?</a>
                 <br>
+                <p class="date">
+                    23/09/23
+                </p>
                 <p> 
-                    23/09/23 - Everyone's looking for the best talent in development. Find it here. 
+                   Everyone's looking for the best talent in development. Find it here. 
                 </p>
                 <br>
             </article>
@@ -176,8 +191,11 @@
                 </a>
                 <a href="/src/pages/blog03.html">How to be an ace developer</a>
                 <br>
+                <p class="date">
+                    06/12/23
+                </p>
                 <p> 
-                    06/12/23 - Ready to level up your development skills? Find yours here. 
+                    Ready to level up your development skills? Find yours here. 
                 </p>
                 <br>
             </article>
@@ -187,8 +205,11 @@
                 </a>
                 <a href="/src/pages/blog04.html">Home or office?</a>
                 <br>
+                <p class="date">
+                    02/02/24
+                </p>
                 <p> 
-                    02/02/24 - Wondering how to find the best place to work? Check out my comparison of home vs. office. 
+                    Wondering how to find the best place to work? Check out my comparison of home vs. office. 
                 </p>
                 <br>
             </article>
@@ -197,8 +218,11 @@
                 <img  class="posts_img" src="/src/assets/post-5.png" alt="blog1">
                 </a>
                 <a href="/src/pages/blog05.html">Save the trees, get online</a>
+                <p class="date">
+                    22/03/24
+                </p>
                 <p> 
-                    22/03/24 -  Want an environmentally sustainable portfolio? It's easier than you think. 
+                     Want an environmentally sustainable portfolio? It's easier than you think. 
                 </p>
                 <br>
             </article>

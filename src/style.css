@@ -13,6 +13,7 @@
       }
     }
 
+    /* set basic parameters for entire document incl font style */
  * {
     margin: 0;
     padding: 0;
@@ -26,7 +27,7 @@
     transition: 1s;
 }
 
-/* header styling */
+/* header styling - main logo featured as only thing visible in mobile view */
 
 header {
     display: flex;
@@ -52,7 +53,11 @@ header {
     background-color: rgba(36, 47, 52, 0)
 }
 
-/* menu styles */
+/* menu styles - visible in larger viewports, as scrolling is 
+less likely to be used for navigation, also serves aesthetic purpose. menu is styled with 
+appropriate styling and has pseudoclass of hover, with cahnges to background color. flex box utilised and 
+fixed to right side position */
+
 .menu {
     display: flex;
     position: fixed;
@@ -88,7 +93,7 @@ header {
 }
 
 
-/* styling for main body */
+/* styling for main body -flex box as parent */
 
 main {
     display: flex;
@@ -98,7 +103,7 @@ main {
     padding-right: 15%;
 }
 
-/* main homepage styling */
+/* main homepage styling- main page, seperate font for aesthetic and visual appeal for one heading.*/
 
 .homepage {
     display: flex;
@@ -132,7 +137,7 @@ main {
     margin-bottom: 5dvh;
 }
 
-/* icon styling */
+/* icon styling - contact icons are anchor links. scroll down only visible in mobile view where scroll nav is used*/
 
 .contact-icons {
     display: flex;
@@ -167,7 +172,7 @@ main {
 }
 
 
-/* About styling */
+/* About styling - simple about page with para text and floating image*/
 
  
 .aboutpage > h1 {
@@ -197,7 +202,8 @@ main {
     padding-bottom: 15dvh;
 }
 
-/* career styling */
+/* career styling - flexbox paragraphs in column. read more check box utilised to reduce content load in mobile view
+checkbox given visible sister labels to use as buttons and original checkbox made invisible*/
 
 .careerpage {
     color: var(--white);
@@ -222,6 +228,7 @@ main {
 }
 
 #ch:checked ~ .extra-content {
+    transition: 0.5s ease;
     display: block;
 }
 
@@ -242,7 +249,7 @@ label {
 }
 
 
-/* experience styling */
+/* experience styling - */
 
 .experience {
     color: var(--white);
@@ -260,7 +267,9 @@ label {
     color: var(--chartreuse);
 }
 
-/* blog styling */
+/* blog styling  - flex box styled with multiple images. images and titles used as links. media responsiveness added 
+and explained in comment below. the images will appear grayscale in large viewports where hover is available and will show color 
+when active in hover*/
 
 .blogpage {
     padding-top: 10dvh;
@@ -280,6 +289,8 @@ label {
 .blogpost {
     margin-bottom: 1em;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .blogpost > a {
@@ -288,9 +299,13 @@ label {
     text-decoration: none;
 }
 
+.blogpost > .date {
+    font-size: 0.75em;
+}
+
 .posts_img {
-    height: 8em;
-    width: 8em;
+    height: 20dvh;
+    width: 100%;
     border-radius: 1em;
     margin-right: 1em;
 }
@@ -307,12 +322,14 @@ footer {
     color: var(--white);
     padding-top: 20dvh;
     font-size: 1em;
-    width: 20%;
+    width: 50%;
+    padding-left: 1em;
 }
 
 /* desktop view */
 
 @media screen and (min-width: 600px) {
+    /* wrap for aesthetics and ease of navigating */
     .experience {
         display: flex;
         flex-wrap: wrap;
@@ -327,7 +344,7 @@ footer {
         flex-direction: row;
         width: 50%;
     }
-
+/* responsive to wrap into colum */
     .blogpage {
         display: flex;
         flex-wrap: wrap;
@@ -340,7 +357,7 @@ footer {
     }
 
     .blogpost {
-        width: 30%;
+        width: 50%;
         padding: 1em;
     }
 
@@ -354,6 +371,7 @@ footer {
     
 }
 
+/* another stage in responsiveness to help make website remain neat and tidy. */
 
 @media screen and (min-width: 800px) {
 
@@ -404,7 +422,7 @@ footer {
     }
 
     .blogpost {
-        width: 45%;
+        width: 50%;
         padding: 1em;
     }
 
@@ -418,7 +436,7 @@ footer {
     
 }
 
-
+/* eliminates menu at small viewport, and uses scroll for primary navigation */
 @media screen and (max-width: 800px) {
     .menu {
         display: none;

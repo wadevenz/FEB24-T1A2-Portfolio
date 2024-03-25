@@ -1,9 +1,11 @@
+/* main color scheme added from initial pages */
 :root {
     --gunmetal: #242f34ff;
     --white: #ffffffff;
     --chartreuse: #dfff00ff;
     }
 
+/* set basic parameters for blog page htmls */
  * {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -12,6 +14,8 @@
     font-style: normal;
     font-variation-settings: "slnt" 0;
 }
+
+/* logo postioned in top left. inially to have nav bar on top right, however believe only having logo looks better. nav back home on bottom of page via anchor link */
 
 nav {
     display: flex;
@@ -41,6 +45,7 @@ nav > #logo {
     color: var(--gunmetal);
 }
 
+
 #date {
     font-size: 0.75em;
 }
@@ -55,6 +60,8 @@ nav > #logo {
     filter: grayscale(100%);
 }
 
+/* main content */
+
 main > p {
     padding-top: 1em;
     padding-left: 20dvw;
@@ -62,10 +69,12 @@ main > p {
     padding-bottom: 2em;
 }
 
+/* nav back to blog section id of initial index.html */
 a {
     display: flex;
     justify-content: flex-end;
     padding-bottom: 3em;
+    padding-right: 1em;
 }
 
 footer {
