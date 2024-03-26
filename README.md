@@ -22,7 +22,7 @@ Content is kept brief to prevent laborious searching, with a "read more" accordi
 
 Minor variation in typography in titles and content is meant to gain visual appeal with the hope for further engagement.
 
-Responsive layouts utilise flexbox to change from rows and columns in differing viewports, columns predominant in mobile for smooth scroll. The changing layout though is also aimed at breaking up visual patterns and maintain a positive UX.  
+Responsive layouts utilise flexbox to change from rows and columns in differing viewports, columns predominant in mobile for smooth scroll. The Exp and Blog sections utilise this responsive change. All elements are also sized and postioned in mobile view first but adapt with aesthetic consideration to the larger viewport of desktop. The changing layout though is also aimed at breaking up visual patterns and maintain a positive UX.  
 
 There is also some minor styling to blog section utilising the 'hover' pseudoclass to display color from grayscale. 
 
