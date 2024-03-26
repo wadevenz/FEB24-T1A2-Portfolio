@@ -47,7 +47,7 @@ header {
     background-color: rgba(36, 47, 52, 0)
 }
 
-.mainlogo > img {
+.mainlogo > a > img {
     height: 15%;
     width: 15%;
     background-color: rgba(36, 47, 52, 0)
@@ -221,6 +221,7 @@ checkbox given visible sister labels to use as buttons and original checkbox mad
     flex-direction: column;
     width: 100%;
     margin-top: 1em;
+    margin-bottom: 2em;
 }
   
 #ch {
@@ -248,14 +249,17 @@ label {
     display: none;
 }
 
+/* RESUME button styling */
+
 #resume {
+    display: block;
+    width: fit-content;
     color: var(--gunmetal);
     text-decoration: none;
     font-size: 1em;
     background-color: var(--chartreuse);
     border-radius: 10px;
     padding: 5px;
-    margin-top: 2em;
 }
 
 

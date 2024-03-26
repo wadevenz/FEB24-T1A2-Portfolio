@@ -17,7 +17,7 @@
 
 /* logo postioned in top left. inially to have nav bar on top right, however believe only having logo looks better. nav back home on bottom of page via anchor link */
 
-nav {
+nav > a {
     display: flex;
     background-color: var(--gunmetal);
     justify-content: space-between;
@@ -25,7 +25,7 @@ nav {
 
 }
 
-nav > #logo {
+nav > a > #logo {
     color: var(--chartreuse);
     height: 10%;
     width: 10%;
