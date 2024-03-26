@@ -36,16 +36,27 @@ My target audience is prospective employers looking to hire a junior developer â
 
 ## Sitemap
 
-[<img src="/docs/Portfolio-sitemap.drawio.png" alt="Sitemap">]
+<img src="/docs/Portfolio-sitemap.drawio.png" alt="Sitemap">
 
 ## Wireframes
 
-[<img src="/docs/Desktop-main.png" alt="Desktop Wireframe">]
-[<img src="/docs/Mobile-main.png" alt="Mobile Wireframe">]
+<img src="/docs/Wireframe-Desktop.png.png" alt="Desktop Wireframe">
+<img src="/docs/Wireframe-Mobile.png.png" alt="Mobile Wireframe">
 
 ## Screenshots
 
-[<img src="/docs/Desktop-main.png" alt="Desktop Main">]
+<img src="/docs/Desktop-main.png" alt="Desktop Main">
+<img src="/docs/Desktop-Post01.png>" alt="Desktop Post01">
+<img src="/docs/Desktop-Post02.png>" alt="Desktop Post02">
+<img src="/docs/Desktop-Post03.png>" alt="Desktop Post03">
+<img src="/docs/Desktop-Post04.png>" alt="Desktop Post04">
+<img src="/docs/Desktop-Post05.png>" alt="Desktop Post05">
+<img src="/docs/Mobile-main.png" alt="Mobile Main">
+<img src="/docs/Mobile-Post01.png.png" alt="Mobile Post01">
+<img src="/docs/Mobile-Post02.png.png" alt="Mobile Post02">
+<img src="/docs/Mobile-Post03.png.png" alt="Mobile Post03">
+<img src="/docs/Mobile-Post04.png.png" alt="Mobile Post04">
+<img src="/docs/Mobile-Post05.png.png" alt="Mobile Post05">
 
 ## Tech Stack
 
