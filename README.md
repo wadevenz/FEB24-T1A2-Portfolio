@@ -31,7 +31,7 @@ I also put a very simple color changing animation for a title announcing new pro
 
 ## Target Audience
 
-My target audience is prospective employers looking to hire a junior developer — preferably here on the Gold Coast, up in Brisbane or a company who will allow me to work remotely. I know the industry is tough at the moment, and to get hired you need to stand out and make an impression. I designed my website to feel clean and seamless, but with touches of fun, colour and humour to reflect my personality. I don't just want prospective employers to see what I can do (although that's important). I want them to get a sense of who I am — funny and easy to work with. The exact type of developer you'd want on your team.
+My target audience is prospective employers looking to hire a junior developer — preferably here on the Gold Coast, up in Brisbane or a company who will allow me to work remotely. I know the industry is tough at the moment, and to get hired you need to stand out and make an impression. I designed my website to feel clean and seamless, but with touches of fun and colour to reflect my personality. I don't just want prospective employers to see what I can do (although that's important). I want them to get a sense of who I am — fun and easy to work with. The exact type of developer you'd want on your team.
 
 
 ## Sitemap
