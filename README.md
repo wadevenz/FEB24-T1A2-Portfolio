@@ -10,32 +10,47 @@
 
 ## Purpose
 
-The purpose of this project, was to make a clean and functional website that maintained a visual appeal. Friendly vibes with professional aethetic. 
+The purpose of this project was to make a clean and functional website that maintained a visual appeal. Lets say "Friendly vibes with professional aesthetic". My goal was to make something of a platform to build upon as I gain more skills, to then use to engage with the world of IT and web development. My hope is to prevent the 'TL;DR' or indiffernece of the user, but to have an engaging UX that people will be urged to look for more, hopefully. Simple but effective. 
 
 ## Functionality / Features
 
-A large decision was to maintain most of the content on a single html. This was to take advantage of the natural scroll process most mobile users are privy too. It also was an attempt to prevent disengagement from using multiple links for different sections of information. A navigation menu becomes visible for desktop users where scrolling may be less inherent. The logo also acts an anchor link to main section of home page, from both within main page and from external blog pages. Blog pages also navigate back to the "blog section" from the "Go back" link at the end of each blog. 
+A large decision was to maintain most of the content on a single html page. This was to take advantage of the natural scroll process most mobile users are privy too. It also was an attempt to prevent disengagement from using multiple links for different sections of information. A navigation menu becomes visible for desktop users where scrolling may be less inherent. The fixed logo in top left corner also acts an anchor link to main section of home page, from both within main page and from external blog pages. Blog pages also navigate back to the "blog section" from the "Go back" link at the end of each blog. Blog pages on seperate .html files also play a role in fulfilling some assessment criteria... phewf!
 
-Content is kept brief to prevent laborious searching, with an "read more" accordion used for mobile users.
+Color palette was chosen for minamalistic elegance, basic dark/white combo for profesionalism, and an accent of chartreuse for colour that pops.
 
-The use of typography is meant to gain visual appeal with the hope for further engagement.
+Content is kept brief to prevent laborious searching, with a "read more" accordion in longer content, used for mobile users.
 
-Responsive layouts using flexbox changing from rows and columns is also aimed at breaking up visual patterns and maintain a positive user experience.  
+Minor variation in typography in titles and content is meant to gain visual appeal with the hope for further engagement.
 
-There is also some minor styling to blog section utilising the 'hover' pseudo class to display color from grayscale. 
+Responsive layouts utilise flexbox to change from rows and columns in differing viewports, columns predominant in mobile for smooth scroll. The changing layout though is also aimed at breaking up visual patterns and maintain a positive UX.  
+
+There is also some minor styling to blog section utilising the 'hover' pseudoclass to display color from grayscale. 
+
+I also put a very simple color changing animation for a title announcing new projects, hopefully a distraction from the potential disappointing lack of current experience, but a small taste of whats to come.  
+
 
 ## Target Audience
 
-As would be expected, the target audience for this project would be prospective employers looking to hire junior web developers. The minamalist design is aimed to broaden target audience. I would also hope that this webpage could be used to network with colleagues and other professionals in the same or similar fields. 
+My target audience is prospective employers looking to hire a junior developer — preferably here on the Gold Coast, up in Brisbane or a company who will allow me to work remotely. I know the industry is tough at the moment, and to get hired you need to stand out and make an impression. I designed my website to feel clean and seamless, but with touches of fun, colour and humour to reflect my personality. I don't just want prospective employers to see what I can do (although that's important). I want them to get a sense of who I am — funny and easy to work with. The exact type of developer you'd want on your team.
+
+
+## Sitemap
+
+[<img src="/docs/Portfolio-sitemap.drawio.png" alt="Sitemap">]
+
+## Wireframes
+
+[<img src="/docs/Desktop-main.png" alt="Desktop Wireframe">]
+[<img src="/docs/Mobile-main.png" alt="Mobile Wireframe">]
 
 ## Screenshots
 
-## Sitemap
+[<img src="/docs/Desktop-main.png" alt="Desktop Main">]
 
 ## Tech Stack
 
 - html5
 - css3
-- deployed by netlify and git hub
-- font-aweseome
-- google fonts
+- Deployed by Netlify and GitHub
+- font-awesome utilised for Icons
+- Google fonts for... well, fonts.
