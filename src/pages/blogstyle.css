@@ -92,3 +92,10 @@ footer {
     width: 50%;
     padding-left: 1em;
 }
+
+@media screen and (max-width: 500px){
+    footer {
+        font-size: 0.75em;
+    }
+
+}

@@ -4,8 +4,8 @@
 
 ## Links
 
-[Netlify Deployment](https://wv-portfolio.netlify.app/)
-[GitHub Repo](https://github.com/wadevenz/FEB24-T1A2-Portfolio)
+[Netlify Deployment](https://wv-portfolio.netlify.app/)<br>
+[GitHub Repo](https://github.com/wadevenz/FEB24-T1A2-Portfolio)<br>
 [Presentation]()
 
 ## Purpose
