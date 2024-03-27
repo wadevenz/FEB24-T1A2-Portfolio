@@ -5,12 +5,12 @@
 ## Links
 
 [Netlify Deployment](https://wv-portfolio.netlify.app/)
-[GitHub Deployment](https://wadevenz.github.io/FEB24-T1A2-Portfolio/)
 [GitHub Repo](https://github.com/wadevenz/FEB24-T1A2-Portfolio)
+[Presentation]()
 
 ## Purpose
 
-The purpose of this project was to make a clean and functional website that maintained a visual appeal. Lets say "Friendly vibes with professional aesthetic". My goal was to make something of a platform to build upon as I gain more skills, to then use to engage with the world of IT and web development. My hope is to prevent the 'TL;DR' or indiffernece of the user, but to have an engaging UX that people will be urged to look for more, hopefully. Simple but effective. 
+The purpose of this project was to make a clean and functional website that maintained a visual appeal. Lets say "Friendly vibes with professional aesthetic". My goal was to make something of a platform to build upon as I gain more skills and grow into more complex programming languages e.g JS, then use to engage with the world of IT and web development. My hope is to prevent the 'TL;DR' or indiffernece of the user, but to have an engaging UX that people will be urged to look for more, hopefully. Simple but effective. 
 
 ## Functionality / Features
 
@@ -33,6 +33,8 @@ I also put a very simple color changing animation for a title announcing new pro
 
 My target audience is prospective employers looking to hire a junior developer â€” preferably here on the Gold Coast, up in Brisbane or a company who will allow me to work remotely. I know the industry is tough at the moment, and to get hired you need to stand out and make an impression. I designed my website to feel clean and seamless, but with touches of fun and colour to reflect my personality. I don't just want prospective employers to see what I can do (although that's important). I want them to get a sense of who I am â€” fun and easy to work with. The exact type of developer you'd want on your team.
 
+I would also hope this site appeals to colleagues and developers in similar situations and provides an ability to network and collaborate. 
+
 
 ## Sitemap
 
@@ -45,13 +47,20 @@ My target audience is prospective employers looking to hire a junior developer â
 
 ## Screenshots
 
+### Main Desktop
 <img src="/docs/Desktop-main.png" alt="Desktop Main">
-<img src="/docs/Desktop-Post01.png>" alt="Desktop Post01">
-<img src="/docs/Desktop-Post02.png>" alt="Desktop Post02">
-<img src="/docs/Desktop-Post03.png>" alt="Desktop Post03">
-<img src="/docs/Desktop-Post04.png>" alt="Desktop Post04">
-<img src="/docs/Desktop-Post05.png>" alt="Desktop Post05">
+
+### Blog Desktop
+<img src="/docs/Desktop-Post01.png" alt="Desktop Post01">
+<img src="/docs/Desktop-Post02.png" alt="Desktop Post02">
+<img src="/docs/Desktop-Post03.png" alt="Desktop Post03">
+<img src="/docs/Desktop-Post04.png" alt="Desktop Post04">
+<img src="/docs/Desktop-Post05.png" alt="Desktop Post05">
+
+### Mobile Main
 <img src="/docs/Mobile-main.png" alt="Mobile Main">
+
+### Blog Mobile
 <img src="/docs/Mobile-Post01.png" alt="Mobile Post01">
 <img src="/docs/Mobile-Post02.png" alt="Mobile Post02">
 <img src="/docs/Mobile-Post03.png" alt="Mobile Post03">
@@ -62,6 +71,8 @@ My target audience is prospective employers looking to hire a junior developer â
 
 - html5
 - css3
-- Deployed by Netlify and GitHub
+- Deployed by Netlify
+- Version Control by GitHub
+- Draw.io & Figma for Sitemap and Wireframes
 - font-awesome utilised for Icons
 - Google fonts for... well, fonts.
