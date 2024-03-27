@@ -10,7 +10,7 @@
 
 ## Purpose
 
-The purpose of this project was to make a clean and functional website that maintained a visual appeal. Lets say "Friendly vibes with professional aesthetic". My goal was to make something of a platform to build upon as I gain more skills and grow into more complex programming languages e.g JS, then use to engage with the world of IT and web development. My hope is to prevent the 'TL;DR' or indiffernece of the user, but to have an engaging UX that people will be urged to look for more, hopefully. Simple but effective. 
+The purpose of this project was to make a clean and functional website that maintained a visual appeal. Lets say "Friendly vibes with professional aesthetic". My goal was to make something of a platform to build upon as I gain more skills and grow into more complex programming languages e.g JS, then use to engage with the world of IT and web development. My hope is to prevent the 'TL;DR' or indifference of the user, but to have an engaging UX that people will be urged to look for more, hopefully. Simple but effective. 
 
 ## Functionality / Features
 
