@@ -15,7 +15,7 @@
     font-variation-settings: "slnt" 0;
 }
 
-/* logo postioned in top left. inially to have nav bar on top right, however believe only having logo looks better. nav back home on bottom of page via anchor link */
+/* logo postioned in top left, anchor link to homepage of index.html. potentially to add navigation bar in future.  */
 
 nav > a {
     display: flex;
@@ -65,7 +65,7 @@ nav > a > #logo {
     filter: grayscale(100%);
 }
 
-/* main content */
+/* main content positioned with padding in central position*/
 
 main > p {
     padding-top: 1em;
@@ -92,6 +92,8 @@ footer {
     width: 50%;
     padding-left: 1em;
 }
+
+/* responsive to attempt to fix some cosmetic issues on mobile view. */
 
 @media screen and (max-width: 500px){
     footer {

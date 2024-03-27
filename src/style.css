@@ -172,7 +172,7 @@ main {
 }
 
 
-/* About styling - simple about page with para text and floating image*/
+/* About styling - simple about page with para text and floating image and a larger image to break up sections*/
 
 .aboutpage > h1 {
     color: var(--chartreuse);
@@ -202,7 +202,7 @@ main {
     margin-bottom: 15dvh;
 }
 
-/* career styling - flexbox paragraphs in column. read more check box utilised to reduce content load in mobile view
+/* career styling - flexbox paragraphs in column. 'read more' check box utilised to reduce content load in mobile view
 checkbox given visible sister labels to use as buttons and original checkbox made invisible*/
 
 .careerpage {
@@ -301,7 +301,7 @@ label {
 }
 
 /* blog styling  - flex box styled with multiple images. images and titles used as links. media responsiveness added 
-aand explained in comment below. the images will appear grayscale in large viewports, where hover is available, and will show color 
+and explained in comment below. the images will appear grayscale in large viewports, where hover is available, and will show color 
 when active in hover*/
 
 .blogpage {
@@ -478,4 +478,13 @@ footer {
     .menu {
         display: none;
     }
+}
+
+/* responsive to attempt to fix some cosmetic issues on mobile view. */
+
+@media screen and (max-width: 500px){
+    footer {
+        font-size: 0.75em;
+    }
+
 }
