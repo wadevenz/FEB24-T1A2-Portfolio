@@ -6,7 +6,7 @@
 
 [Netlify Deployment](https://wv-portfolio.netlify.app/)<br>
 [GitHub Repo](https://github.com/wadevenz/FEB24-T1A2-Portfolio)<br>
-[Presentation]()
+[Presentation](https://www.loom.com/share/a490e58f948749f3a4716a057545194f?sid=bb248282-f020-4da4-8250-42f05d6319fa)
 
 ## Purpose
 
