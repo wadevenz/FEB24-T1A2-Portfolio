@@ -25,6 +25,7 @@
     font-style: normal;
     font-variation-settings: "slnt" 0;
     transition: 1s;
+    scroll-behavior: smooth;
 }
 
 /* header styling - main logo featured as only thing visible in mobile view */
